@@ -1,0 +1,35 @@
+body{
+    background-image:url("IMG/football.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+video{position: fixed;}
+div{ float: left; }
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{width: 100%;
+    height: 75px;
+    background-color:rgb(8, 8, 8);
+    line-height: 80px;
+    padding: 0px 0px;
+    position: fixed;
+    z-index: 1;
+}  
+
+nav .logo{font-size:40px ;font-weight: bold;letter-spacing: 1.5px;}
+
+
+nav .logo p{float:left;
+             color:rgb(236, 172, 122) ;text-transform: uppercase;text-shadow: rgb(238, 167, 14) 1px 5px 10px;  }
+             
+nav ul{float:left;}
+
+nav ul li{display: inline-block;list-style:none;}  
+nav ul li a{color: #fff;text-decoration:none ;font-size: 15px;text-transform: uppercase ;padding:0px 60px;}    
+nav ul li a:hover {color: rgb(228, 38, 13);}    
+footer{background-color:white;text-align:right;}
